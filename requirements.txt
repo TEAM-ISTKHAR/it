@@ -1,0 +1,30 @@
+aiofiles
+aiohttp
+asyncio
+beautifulsoup4
+dnspython
+ffmpeg-python
+gitpython
+hachoir
+heroku3
+httpx>=0.28.1,<1.0
+motor>=3.3
+numpy
+opencv-python
+pillow==11.0.0
+psutil
+py-tgcalls==2.2.0
+pykeyboard
+kurigram==2.2.19
+python-dotenv
+pyyaml
+requests
+speedtest-cli
+spotipy
+pymongo>=4.5
+tgcrypto;sys_platform != "win32"
+unidecode
+uvloop;sys_platform != "win32"
+yt-dlp
+youtube-search
+git+https://github.com/SkyBotsDeveloper/youtube-search-python.git
