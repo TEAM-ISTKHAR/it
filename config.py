@@ -47,15 +47,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/SkyBotsDeveloper/Meco-Music",
+    "https://github.com/rockyxd3/Meco-Music",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MecoMusicUpdates")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/MecoMusicSupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Mecobots")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/MecoSupport")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -101,15 +101,15 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = ["https://files.catbox.moe/hkh8gr.jpg",
-                 "https://files.catbox.moe/hkh8gr.jpg",
-                 "https://files.catbox.moe/hkh8gr.jpg",]
+START_IMG_URL = ["https://files.catbox.moe/m6reh8.jpg",
+                 "https://files.catbox.moe/m6reh8.jpg",
+                 "https://files.catbox.moe/m6reh8.jpg",]
     
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/hkh8gr.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/a29r15.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/uxcm48.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/pguloz.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/sg5a4c.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/sg5a4c.jpg"
 TELEGRAM_AUDIO_URL = "https://files.catbox.moe/hkh8gr.jpg"
 TELEGRAM_VIDEO_URL = "https://files.catbox.moe/hkh8gr.jpg"
 STREAM_IMG_URL = "https://files.catbox.moe/hkh8gr.jpg"
