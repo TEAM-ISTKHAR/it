@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from config import LOG, LOG_GROUP_ID
-from AloneX import app
-from AloneX.utils.database import (
+from config import LOG, LOGGER_ID
+from MecoMusic import app
+from MecoMusic.utils.database import (
     delete_served_chat,
     get_assistant,
     is_on_off,
@@ -32,7 +32,7 @@ async def on_bot_added(_, message):
                     f"Added By: {message.from_user.mention}"
                 )
                 await app.send_message(
-                    LOG_GROUP_ID,
+                    LOGGER_ID,
                     text=msg,
                     reply_markup=InlineKeyboardMarkup(
                         [
