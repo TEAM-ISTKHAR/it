@@ -177,7 +177,7 @@ async def get_thumb(videoid,user_id):
 
         youtube = Image.open(raw_thumb_path).convert("RGBA")
         background = fit_image(youtube, CANVAS_SIZE)
-        background = background.filter(ImageFilter.GaussianBlur(24))
+        background = background.filter(ImageFilter.GaussianBlur(16))
         background = ImageEnhance.Brightness(background).enhance(0.90)
         background = ImageEnhance.Color(background).enhance(0.70)
 
