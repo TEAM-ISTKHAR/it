@@ -16,6 +16,9 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
+# 🎵 Music API
+YTPROXY_URL = getenv("YTPROXY_URL", "https://tgapi.xbitcode.com")
+YT_API_KEY = getenv("YT_API_KEY", "xbit_gzlb5IbFpZZ_nIFsU7kDuM0-IokPM6Db")
 
 
 WORKER_FALLBACK_API_URL = getenv(
